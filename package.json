@@ -18,7 +18,9 @@
     "yarn": "1.22.18"
   },
   "dependencies": {
-    "rimraf": "^3.0.2"
+    "rimraf": "^3.0.2",
+    "verdaccio": "^5.8.0",
+    "volta": "^0.0.0"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.16.11",
@@ -32,9 +34,9 @@
     "lerna-changelog": "^2.2.0",
     "scripty": "^2.0.0"
   },
-  "husky":{
-    "hooks":{
-      "commit-msg":"commitlint -E HUSKY_GIT_PARAMS"
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
     }
   }
 }
